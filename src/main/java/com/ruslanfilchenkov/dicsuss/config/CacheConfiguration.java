@@ -48,6 +48,18 @@ public class CacheConfiguration {
             createCache(cm, com.ruslanfilchenkov.dicsuss.domain.User.class.getName());
             createCache(cm, com.ruslanfilchenkov.dicsuss.domain.Authority.class.getName());
             createCache(cm, com.ruslanfilchenkov.dicsuss.domain.User.class.getName() + ".authorities");
+            createCache(cm, com.ruslanfilchenkov.dicsuss.domain.Region.class.getName());
+            createCache(cm, com.ruslanfilchenkov.dicsuss.domain.Country.class.getName());
+            createCache(cm, com.ruslanfilchenkov.dicsuss.domain.Location.class.getName());
+            createCache(cm, com.ruslanfilchenkov.dicsuss.domain.Department.class.getName());
+            createCache(cm, com.ruslanfilchenkov.dicsuss.domain.Department.class.getName() + ".employees");
+            createCache(cm, com.ruslanfilchenkov.dicsuss.domain.Task.class.getName());
+            createCache(cm, com.ruslanfilchenkov.dicsuss.domain.Task.class.getName() + ".jobs");
+            createCache(cm, com.ruslanfilchenkov.dicsuss.domain.Employee.class.getName());
+            createCache(cm, com.ruslanfilchenkov.dicsuss.domain.Employee.class.getName() + ".jobs");
+            createCache(cm, com.ruslanfilchenkov.dicsuss.domain.Job.class.getName());
+            createCache(cm, com.ruslanfilchenkov.dicsuss.domain.Job.class.getName() + ".tasks");
+            createCache(cm, com.ruslanfilchenkov.dicsuss.domain.JobHistory.class.getName());
             // jhipster-needle-ehcache-add-entry
         };
     }
