@@ -1,0 +1,3 @@
+org.springframework.test.context.ContextCustomizerFactory = com.\
+    ruslanfilchenkov.dicsuss.config.\
+    SqlTestContainersSpringContextCustomizerFactory
